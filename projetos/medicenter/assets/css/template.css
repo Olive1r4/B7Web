@@ -6,10 +6,16 @@ body {
 header {
     display: flex;
     justify-content: center;
+    height: 120px;
 }
 
 .container {
+    display: flex;
+    justify-content: space-between;
     width: 990px;
-    height: 100px;
-    background-color: red;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
