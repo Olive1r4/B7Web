@@ -156,8 +156,61 @@ nav .active, nav a:hover {
     padding-bottom: 15px;
 }
 
+#geral {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
 
+#geral section {
+    flex: 2;
+}
 
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #39aae1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.widget_body {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 25px; /* Espaçamento entre os quadrados */
+}
+
+.widget_body_square {
+    flex: 1 1 calc(50% - 20px); /* Cada quadrado ocupa 50% do espaço menos a margem */
+    height: 150px;
+    background-color: #39aae1; /* Cor de fundo, você pode alterar conforme necessário */
+}
+
+.widget_body_text {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%; /* Garante que o texto ocupe toda a largura do quadrado */
+    box-sizing: border-box; /* Inclui o padding na largura total */
+    word-wrap: break-word; /* Garante que o texto quebre a linha corretamente */
+    white-space: normal; /* Permite que o texto quebre a linha */
+    margin: 0; /* Remove qualquer margem */
+    padding: 0; /* Remove qualquer padding */
+}
 
 
 
