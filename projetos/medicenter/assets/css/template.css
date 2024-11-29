@@ -212,6 +212,18 @@ nav .active, nav a:hover {
     margin: 0; /* Remove qualquer margem */
     padding: 0; /* Remove qualquer padding */
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
 article a {
     text-decoration: none;;
 }
@@ -238,6 +250,10 @@ article .article_news_comment {
 }
 
 article .article_image {
+    margin-top: 15px;
+}
+
+article .article_image img {
     width: 100%;
     height: auto;
 }
