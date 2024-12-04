@@ -55,7 +55,7 @@ nav .active, nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url(../images/img1.jpg);
+    background-image: url(https://drive.google.com/thumbnail?id=15t_HYdU0gOXETmQvHMu_nTqqQO58KQ_Z&sz=s4000);
     background-position: center;
     /*banner segue o tamenho da tela*/
     background-size: cover;
@@ -270,4 +270,52 @@ article .article_desc {
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+    color: #ffffff;
+}
+
+.footer_menu_1, .footer_menu_2, .footer_menu_3 {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer_menu_1 {
+    background-color: #39aae1;
+}
+.footer_menu_2 {
+    background-color: #0079c7;
+}
+.footer_menu_3 {
+    background-color: #2b4c99;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.footer_info {
+    display: flex;
+    flex: 1;
+    color: #ffffff;
+}
+
+.footer_info_1, .footer_info_2, .footer_info_3 {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer_copyright {
+    color: #ffffff;
+    padding: 20px;
+    border-top: 3px solid #ffffff0c;
 }
