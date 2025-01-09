@@ -55,7 +55,7 @@ nav .active, nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url(https://drive.google.com/thumbnail?id=15t_HYdU0gOXETmQvHMu_nTqqQO58KQ_Z&sz=s4000);
+    background-image: url(/projetos/medicenter/assets/images/img1.jpg);
     background-position: center;
     /*banner segue o tamenho da tela*/
     background-size: cover;
